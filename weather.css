@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  font-weight: 300;
+}
+
+
+img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.backdrop {
+  position: fixed;
+  background: url("https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: top;
+  height: 90vh;
+  width: 70%;
+  margin-top: 30px;
+  margin-left: 15%;
+    background-repeat: no-repeat;
+}
+
+.content {
+  position: absolute;
+  height: 90vh;
+  width: 35%;
+  left: 65%;
+  background: rgba(68, 84, 92, 0.2);
+  backdrop-filter:blur(9px);
+}
+
+form {
+  color: white;
+  font-size: 1.25em;
+  z-index: 1;
+}
+
+h3 {
+margin-top: 25px;  
+color: white;
+margin-bottom: 15px;
+font-size: 2em;
+text-transform: capitalize;
+letter-spacing: 2px;
+line-height:1;
+}
+
+input {
+  background-color: #fff;
+  position: relative;
+  border: none;
+  border-radius: 25px;
+  margin-top: 25%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+  font-family: inherit;
+  font-size: 1.2rem;
+  padding: 1rem;
+  min-width: 250px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.weather {
+  position: sticky;
+  width: 50%;
+  bottom: 1px;
+ 
+}
+
+.weather h2 {
+  margin-top:83% ;
+  color: #ffffff;
+  font-size: 3rem;
+  text-align: center;
+} 
+.weather img{
+height: 22%;
+width: 22%;
+margin-left: -14px;
+margin-bottom: -8%;
+}
+.weather span{
+  font-size: 1.8rem;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
+.details {
+  margin-top: 18%;
+}
+
+.details p {
+  font-weight: 800px;
+  letter-spacing: 3px;
+  line-height: 2;
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+
+}
+
+.details table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.details td {
+  text-align: left;
+  padding: 8px;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  color: #fff;
+  margin: 10px auto;
+  font-family: 'Roboto', sans-serif;
+  text-transform:capitalize;
+  font-weight: 500;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="weather.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="bg-img"></div>
+    <div class="backdrop">
+      <div class="content">
+        <h3>weather app</h3>
+        <form id="form">
+          <input
+            type="text"
+            class="search"
+            id="search"
+            placeholder="Search by City..."
+            autocomplete="off"
+          />
+          <main id="main"></main>
+        </form>
+      </div>
+
+      <main id="left"></main>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>
